@@ -12,6 +12,8 @@ module.exports = function (app) {
     
     .post(function (req, res){
       let project = req.params.project;
+
+      console.log(project)
       
     })
     
